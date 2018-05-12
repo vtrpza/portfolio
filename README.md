@@ -1,2 +1,2 @@
 # portfolio
-portfolio project in reactjs
+portfolio project build with react js and styled-components
