@@ -1,7 +1,7 @@
 import React from 'react';
-import { IndexRoute, Router, Route, hashHistory} from 'react-router' 
-import App from './components/App'
-import Home from './components/Home.js'
+import { IndexRoute, Router, Route, hashHistory } from 'react-router';
+import App from './components/App';
+import Home from './components/Home';
 
 export default (
     <Router history={hashHistory}>
