@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { acajou } from '../../theme/variables';
 
 export const ImageButton = styled.div`
     cursor: pointer;
@@ -13,5 +14,20 @@ export const ImageButton = styled.div`
         & > img {
             transform: scale(1.3);
         }
+    }
+`;
+
+export const Index = styled.div`
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    h1 {
+        font-size: 5em;
+        margin: 0;
+        font-weight: bold;
+        color: ${acajou};
+        opacity: 0.5;
+        transform: translateY(18%);
     }
 `;

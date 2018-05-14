@@ -7,4 +7,8 @@ injectGlobal`
         font-family: 'Cabin', sans-serif;
         font-size: 24px;
     }
+
+    h1, h2, h3 {
+        font-weight: normal;
+    }
 `
