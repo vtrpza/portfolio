@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {anti_flash_white} from '../../theme/variables';
+import {lazuli} from '../../theme/variables';
 
 export const Background = styled.div`
     position: fixed;
@@ -8,7 +8,7 @@ export const Background = styled.div`
     top: 10vh;
     height: 80vh;
     background-image: url(${require('../../assets/koala.png')});
-    background-color: ${anti_flash_white};
+    background-color: ${lazuli};
     opacity: 0.4;
     background-size: 80%;
     background-repeat: no-repeat;

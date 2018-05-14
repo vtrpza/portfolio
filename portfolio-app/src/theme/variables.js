@@ -1,5 +1,5 @@
-export const smoky_black = "#0C120C";
-export const harvard_crimson = "#C20114";
-export const acajou = "#5A352A";
-export const up_maroon = "#69140E";
-export const anti_flash_white = "#ECEBF3";
+export const white = "#FFFCFF"; //background
+export const orange = "#EB5E55"; //link
+export const lazuli = "#247BA0"; //background com foto
+export const dark_liver = "#50514F"; //numero do projeto
+export const black = "#181F1C"; //background do link e fonte

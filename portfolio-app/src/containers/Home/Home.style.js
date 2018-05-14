@@ -1,5 +1,8 @@
 import styled, { css } from 'styled-components';
-
+import {
+    white,
+    black
+} from '../../theme/variables'
 
 export const MainImage = styled.div`
     height: 100vh;
@@ -14,7 +17,7 @@ export const MainImage = styled.div`
     justify-content: center;
 
     text-align: center;
-    color: white;
+    color: ${white};
 
     font-size: 2em;
 
@@ -32,7 +35,7 @@ export const RevealP = styled.p`
         left: 0;
         width: 100%;
         height: 100%;
-        background-color: #000000 ;
+        background-color: ${black};
 
         transform-origin:left;
         transform: rotateY(90deg);

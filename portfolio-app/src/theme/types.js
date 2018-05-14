@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 import {
-    harvard_crimson,
-    smoky_black
+    orange,
+    black
 } from './variables'
 
 export const A = styled.a`
-    color: ${harvard_crimson};
+    color: ${orange};
     text-decoration: none;
     position: relative;
 
@@ -16,13 +16,13 @@ export const A = styled.a`
         bottom: 0;
         height: 10%;
         width: 100%;
-        background-color: ${harvard_crimson};
+        background-color: ${orange};
         z-index: -1;
         transition: height .1s, background-color .1s;
     }
 
     &:hover:after {
         height: 40%;
-        background-color: ${smoky_black};
+        background-color: ${black};
     }
 `;

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { acajou } from '../../theme/variables';
+import { dark_liver } from '../../theme/variables';
 
 export const ImageButton = styled.div`
     cursor: pointer;
@@ -26,7 +26,7 @@ export const Index = styled.div`
         font-size: 5em;
         margin: 0;
         font-weight: bold;
-        color: ${acajou};
+        color: ${dark_liver};
         opacity: 0.5;
         transform: translateY(18%);
     }
