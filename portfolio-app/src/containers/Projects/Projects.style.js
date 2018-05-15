@@ -1,5 +1,7 @@
 import styled from 'styled-components';
-import { dark_liver } from '../../theme/variables';
+import {
+    pale
+} from '../../theme/variables';
 
 export const ImageButton = styled.div`
     cursor: pointer;
@@ -26,8 +28,14 @@ export const Index = styled.div`
         font-size: 5em;
         margin: 0;
         font-weight: bold;
-        color: ${dark_liver};
+        color: ${pale};
         opacity: 0.5;
         transform: translateY(18%);
     }
+`;
+
+export const Title = styled.h1`
+    color: ${pale};
+    font-weight: bold;
+    margin-top: 0;
 `;

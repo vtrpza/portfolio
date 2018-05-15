@@ -1,16 +1,16 @@
 import styled from 'styled-components';
-import {lazuli} from '../../theme/variables';
+import {gray} from '../../theme/variables';
 
 export const Background = styled.div`
     position: fixed;
-    left: 13.2vw;
-    width: 72.7vw;
-    top: 10vh;
-    height: 80vh;
-    background-image: url(${require('../../assets/koala.png')});
-    background-color: ${lazuli};
+    left: 6.7vw;
+    width: 85.7vw;
+    top: 8vh;
+    height: 100vh;
+    background-image: url(${require('../../assets/panther.png')});
+    background-color: ${gray};
     opacity: 0.4;
-    background-size: 80%;
+    background-size: 40%;
     background-repeat: no-repeat;
     background-position: center;
     z-index: -99;

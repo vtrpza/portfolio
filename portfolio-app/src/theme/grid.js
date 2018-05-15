@@ -1,15 +1,38 @@
 import styled, {css} from 'styled-components';
+import media from './media'
 
 export const Div = styled.div`
     ${({ marginBottom }) => marginBottom && css`
-        margin-Bottom: ${marginBottom};
+        margin-bottom: ${marginBottom};
+    `}
+    ${({ marginTop }) => marginTop && css`
+        margin-top: ${marginTop};
+    `}
+    ${({ marginLeft }) => marginLeft && css`
+        margin-left: ${marginLeft};
+    `}
+    ${({ marginRight }) => marginRight && css`
+        margin-right: ${marginRight};
     `}
 `;
 
 export const Container = styled(Div)`
-    padding-left: 245px;
-    padding-right: 245px;
-    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 30px;
+    
+    ${media.tablet`
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 15px;
+    `}
+    
+    ${media.phone`
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 15px;
+    `}
+    
 `;
 
 export const Relative = styled(Div)`

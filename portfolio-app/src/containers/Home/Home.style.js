@@ -1,12 +1,12 @@
 import styled, { css } from 'styled-components';
 import {
-    white,
-    black
+    black,
+    champagne
 } from '../../theme/variables'
 
 export const MainImage = styled.div`
     height: 100vh;
-    background-image: url('${require('../../assets/panda.jpg')}');
+    background-image: url('${require('../../assets/black_panther.jpg')}');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,7 +17,7 @@ export const MainImage = styled.div`
     justify-content: center;
 
     text-align: center;
-    color: ${white};
+    color: ${champagne};
 
     font-size: 2em;
 

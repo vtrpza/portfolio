@@ -1,5 +1,6 @@
-export const white = "#FFFCFF"; //background
-export const orange = "#EB5E55"; //link
-export const lazuli = "#247BA0"; //background com foto
-export const dark_liver = "#50514F"; //numero do projeto
-export const black = "#181F1C"; //background do link e fonte
+export const rblack = "#070107"; //background
+export const orange = "#FBA210"; //link
+export const gray = "#686963"; //background com foto
+export const pale = "#E2CFEA"; //numero do projeto e titulo
+export const black = "#181F1C"; //background do link
+export const champagne = "#F2F4CB" //fonte

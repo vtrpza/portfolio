@@ -17,25 +17,26 @@ export default class Home extends React.Component {
                 <WhenInView>
                     {({ isInView}) =>
                         <RevealP hide={!isInView}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae libero rhoncus, condimentum augue id, ullamcorper ex. Phasellus ut quam at quam fringilla commodo nec dapibus neque. In tempus rutrum lacus at sollicitudin. Vivamus convallis semper nisl sit amet venenatis. Sed finibus feugiat lorem, in accumsan eros pulvinar et. Phasellus gravida ipsum id consequat pharetra. Vivamus non dui nulla. Sed iaculis urna eu rhoncus blandit. Aenean at ante quis sem sodales ullamcorper. Duis erat ligula, elementum sed velit ac, pulvinar vulputate magna. Nam mattis lorem et massa hendrerit, a elementum elit iaculis. Aliquam finibus quis augue pellentesque gravida. Integer sapien augue, imperdiet ac accumsan at, viverra nec orci. Ut lobortis leo nulla, in elementum est vehicula laoreet. Nunc eget suscipit urna. Aliquam erat volutpat.
+                            Olá. Seja bem-vindo ao meu portfólio! Meu nome é Vitor, sou programador front-end e meu foco (no momento) é JavaScript(react.js). Busco ingressar profissionalmente como Desenvolvedor Web e possuo como foco e objetivo sempre melhorar minhas habilidades e conhecimentos.
                         </RevealP>
                     }
                 </WhenInView>
                 <WhenInView>
                     {({ isInView}) =>
                         <RevealP hide={!isInView}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae libero rhoncus, condimentum augue id, ullamcorper ex. Phasellus ut quam at quam fringilla commodo nec dapibus neque. In tempus rutrum lacus at sollicitudin. Vivamus convallis semper nisl sit amet venenatis. Sed finibus feugiat lorem, in accumsan eros pulvinar et. Phasellus gravida ipsum id consequat pharetra. Vivamus non dui nulla. Sed iaculis urna eu rhoncus blandit. Aenean at ante quis sem sodales ullamcorper. Duis erat ligula, elementum sed velit ac, pulvinar vulputate magna. Nam mattis lorem et massa hendrerit, a elementum elit iaculis. Aliquam finibus quis augue pellentesque gravida. Integer sapien augue, imperdiet ac accumsan at, viverra nec orci. Ut lobortis leo nulla, in elementum est vehicula laoreet. Nunc eget suscipit urna. Aliquam erat volutpat.
+                           Usarei este portfólio como uma plataforma para mostrar um pouco a minha personalidade e também as minhas habilidades como programador.
                         </RevealP>
                     }
                 </WhenInView>
                 <WhenInView>
                     {({ isInView}) =>
                         <RevealP hide={!isInView}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae libero rhoncus, condimentum augue id, ullamcorper ex. Phasellus ut quam at quam fringilla commodo nec dapibus neque. In tempus rutrum lacus at sollicitudin. Vivamus convallis semper nisl sit amet venenatis. Sed finibus feugiat lorem, in accumsan eros pulvinar et. Phasellus gravida ipsum id consequat pharetra. Vivamus non dui nulla. Sed iaculis urna eu rhoncus blandit. Aenean at ante quis sem sodales ullamcorper. Duis erat ligula, elementum sed velit ac, pulvinar vulputate magna. Nam mattis lorem et massa hendrerit, a elementum elit iaculis. Aliquam finibus quis augue pellentesque gravida. Integer sapien augue, imperdiet ac accumsan at, viverra nec orci. Ut lobortis leo nulla, in elementum est vehicula laoreet. Nunc eget suscipit urna. Aliquam erat volutpat.
+                            Este portfólio fiz inteiramente em React.js e Styled-Components, e utilizando algumas libraries, como por exemplo react-waypoint. O código fonte desse projeto está disponível na página de Projetos. Este site ainda está sob desenvolvimento.
                         </RevealP>
                     }
                 </WhenInView>
                
+              
             </Container>
         );
     }
