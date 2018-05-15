@@ -1,8 +1,12 @@
 import styled, { css } from 'styled-components';
 import {
     black,
-    champagne
-} from '../../theme/variables'
+    champagne,
+    orange,
+    pale
+} from '../../theme/variables';
+import {Link} from 'react-router';
+
 
 export const MainImage = styled.div`
     height: 100vh;
@@ -49,3 +53,15 @@ export const RevealP = styled.p`
         }
     `}
 `;
+
+export const Item = styled(Link)`
+    font-size: 1.5em;
+    cursor: pointer;
+    color: ${orange};
+    text-decoration: none;
+
+    &:hover {
+        color: ${pale};
+    }
+`;
+
