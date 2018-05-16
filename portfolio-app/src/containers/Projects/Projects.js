@@ -3,7 +3,8 @@ import Zoomy from 'react-zoomy';
 import {
     ImageButton,
     Index,
-    Title
+    Title,
+    H1
 } from './Projects.style';
 import {
     Container,
@@ -21,7 +22,7 @@ export default class Projects extends Component {
                     <Index>
                         <h1>01</h1>
                     </Index>
-                    <h1> <A href="https://github.com/vtrpza/chart">chart-generator</A> feito com React + Recharts </h1>
+                    <H1> <A href="https://github.com/vtrpza/chart">chart-generator</A> feito com React + Recharts </H1>
                 </Relative>
                 <Flex justify={'center'} marginBottom="40px">
                     <Zoomy
@@ -49,7 +50,7 @@ export default class Projects extends Component {
                     <Index>
                         <h1>02</h1>
                     </Index>
-                    <h1> <A href="https://github.com/vtrpza/portfolio">portfólio</A> feito com React e Styled-Components </h1>
+                    <H1> <A href="https://github.com/vtrpza/portfolio">portfólio</A> feito com React e Styled-Components </H1>
                 </Relative>
                 <Flex justify={'center'} marginBottom="40px">
                     <Zoomy
