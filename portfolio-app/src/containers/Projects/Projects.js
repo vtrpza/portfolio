@@ -28,7 +28,7 @@ export default class Projects extends Component {
                         imageUrl={require('../../assets/chart.PNG')}
                         renderThumbnail={({ showImage }) => 
                         <ImageButton  onClick={showImage}>
-                            <img src={require('../../assets/chart_thumbnail.png')} alt="red-panda"/>
+                            <img width="100%" src={require('../../assets/chart_thumbnail.png')} alt="red-panda"/>
                         </ImageButton>
                         }
                         scale={[1.1, 1.1]}
@@ -56,7 +56,7 @@ export default class Projects extends Component {
                         imageUrl={require('../../assets/portfolio.PNG')}
                         renderThumbnail={({ showImage }) => 
                         <ImageButton  onClick={showImage}>
-                            <img src={require('../../assets/portfolio_thumbnail.png')} alt="portfolio"/>
+                            <img width="100%" src={require('../../assets/portfolio_thumbnail.png')} alt="portfolio"/>
                         </ImageButton>
                         }
                         scale={[1.1, 1.1]}

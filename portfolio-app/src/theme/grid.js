@@ -17,20 +17,13 @@ export const Div = styled.div`
 `;
 
 export const Container = styled(Div)`
-    padding-left: 120px;
-    padding-right: 120px;
-    padding-top: 30px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 2.8em;
     
     ${media.tablet`
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 15px;
-    `}
-    
-    ${media.phone`
-        padding-left: 10px;
-        padding-right: 10px;
-        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
     `}
     
 `;

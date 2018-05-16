@@ -1,16 +1,26 @@
 import styled from 'styled-components';
 import { Flex } from '../../theme/grid';
-import {orange, pale} from '../../theme/variables';
+import {orange, pale, black} from '../../theme/variables';
 import {Link} from 'react-router';
+import media from '../../theme/media';
 
 export const NavigationContainer = styled(Flex)`
     position: fixed;
     right: 2em;
-    top: 1.8em;
+    top: 0.7em;
+    ${media.tablet`
+        z-index: 1;
+        font-size: 0.7em;
+        justify-content: center;
+        top: 0;
+        padding: 15px 0;
+        background-color: ${black};
+    `}
 `;
 
 export const NavItem = styled(Link)`
-    margin-right: 30px;
+    margin-right: 15px;
+    margin-left: 15px;
     font-size: 1.5em;
     cursor: pointer;
     color: ${orange};

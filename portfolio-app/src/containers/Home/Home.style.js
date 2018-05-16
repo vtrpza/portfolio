@@ -6,7 +6,7 @@ import {
     pale
 } from '../../theme/variables';
 import {Link} from 'react-router';
-
+import media from '../../theme/media';
 
 export const MainImage = styled.div`
     height: 100vh;
@@ -24,6 +24,10 @@ export const MainImage = styled.div`
     color: ${champagne};
 
     font-size: 2em;
+
+    ${media.tablet`
+        font-size: 1em;
+    `}
 
     h1 {
         margin-bottom: 0;

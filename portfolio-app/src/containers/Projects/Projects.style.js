@@ -36,6 +36,5 @@ export const Index = styled.div`
 
 export const Title = styled.h1`
     color: ${pale};
-    font-weight: bold;
     margin-top: 0;
 `;
