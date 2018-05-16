@@ -10,7 +10,9 @@ export const NavigationContainer = styled(Flex)`
     top: 0.7em;
     ${media.tablet`
         z-index: 1;
-        font-size: 0.7em;
+        font-size: 0.5em;
+        right: 0;
+        left: 0;
         justify-content: center;
         top: 0;
         padding: 15px 0;
