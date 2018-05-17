@@ -22,7 +22,7 @@ export default class Projects extends Component {
                     <Index>
                         <h1>01</h1>
                     </Index>
-                    <H1> <A href="https://github.com/vtrpza/chart">chart-generator</A> feito com React + Recharts </H1>
+                    <H1> <A href="https://vtrpza.github.io/chart/">chart-generator</A> feito com React + Recharts </H1>
                 </Relative>
                 <Flex justify={'center'} marginBottom="40px">
                     <Zoomy
@@ -46,6 +46,8 @@ export default class Projects extends Component {
                         Um gerador de gráficos que mostram o rendimento de dois tipos de investimento: Tesouro Real pré-fixado e Bitcoin.
                     </p>
                 </Flex>
+
+
                 <Relative marginBottom="80px">
                     <Index>
                         <h1>02</h1>
