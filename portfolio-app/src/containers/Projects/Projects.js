@@ -17,10 +17,41 @@ export default class Projects extends Component {
     render() {
         return (
             <Container>
+                
                 <Title>Meus projetos</Title>
+
                 <Relative marginTop="100px" marginBottom="80px">
                     <Index>
                         <h1>01</h1>
+                    </Index>
+                    <H1> <A href="https://vtrpza.github.io/weather-reactjs/">Weather-app</A> feito com React e Bootstrap</H1>
+                </Relative>
+                <Flex justify={'center'} marginBottom="40px">
+                    <Zoomy
+                        imageUrl={require('../../assets/weather.PNG')}
+                        renderThumbnail={({ showImage }) => 
+                        <ImageButton  onClick={showImage}>
+                            <img width="100%" src={require('../../assets/weather_thumbnail.png')} alt="portfolio"/>
+                        </ImageButton>
+                        }
+                        scale={[1.1, 1.1]}
+                        imageProps={{
+                            style: {
+                            width: '90vw',
+                            height: 'auto'
+                            }
+                        }}
+                    />
+                </Flex>
+                <Flex justify={'center'} marginBottom="120px">
+                    <p>
+                        Uma aplicação web que mostra o tempo em qualquer lugar do mundo buscando essas informações via API.
+                    </p>
+                </Flex>
+
+                <Relative marginBottom="80px">
+                    <Index>
+                        <h1>02</h1>
                     </Index>
                     <H1> <A href="https://vtrpza.github.io/chart/">chart-generator</A> feito com React + Recharts </H1>
                 </Relative>
@@ -50,7 +81,7 @@ export default class Projects extends Component {
 
                 <Relative marginBottom="80px">
                     <Index>
-                        <h1>02</h1>
+                        <h1>03</h1>
                     </Index>
                     <H1> <A href="https://github.com/vtrpza/portfolio">portfólio</A> feito com React e Styled-Components </H1>
                 </Relative>
@@ -76,6 +107,7 @@ export default class Projects extends Component {
                         Meu portfolio (este que você está visitando agora), feito com React.js e Styled-Components. 100% JavaScript.
                     </p>
                 </Flex>
+
             </Container>
         )
     }
