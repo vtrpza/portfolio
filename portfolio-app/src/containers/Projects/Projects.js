@@ -83,6 +83,35 @@ export default class Projects extends Component {
                     <Index>
                         <h1>03</h1>
                     </Index>
+                    <H1> <A href="https://vtrpza.github.io/reminder-app/">Reminder-App</A> feito com React e Redux </H1>
+                </Relative>
+                <Flex justify={'center'} marginBottom="40px">
+                    <Zoomy
+                        imageUrl={require('../../assets/reminder.PNG')}
+                        renderThumbnail={({ showImage }) => 
+                        <ImageButton  onClick={showImage}>
+                            <img width="100%" src={require('../../assets/reminder_thumbnail.png')} alt="portfolio"/>
+                        </ImageButton>
+                        }
+                        scale={[1.1, 1.1]}
+                        imageProps={{
+                            style: {
+                            width: '90vw',
+                            height: 'auto'
+                            }
+                        }}
+                    />
+                </Flex>
+                <Flex justify={'center'} marginBottom="120px">
+                    <p>
+                        Uma aplicação web que gera uma agenda online. Feito com React + Redux e bootstrap.
+                    </p>
+                </Flex>
+
+                <Relative marginBottom="80px">
+                    <Index>
+                        <h1>04</h1>
+                    </Index>
                     <H1> <A href="https://github.com/vtrpza/portfolio">portfólio</A> feito com React e Styled-Components </H1>
                 </Relative>
                 <Flex justify={'center'} marginBottom="40px">
@@ -107,7 +136,7 @@ export default class Projects extends Component {
                         Meu portfolio (este que você está visitando agora), feito com React.js e Styled-Components. 100% JavaScript.
                     </p>
                 </Flex>
-
+                
             </Container>
         )
     }
